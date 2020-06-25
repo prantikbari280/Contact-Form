@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+body{
+	background:url(../img/R.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 400px;
+     border-radius: 10px;
+     background: white;
+}
+
+.container form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.container h1{
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+	color: black;
+}
+.text{
+	position: relative;
+	margin: 30px 0;
+}  
+
+p{
+	color: skyblue;
+}
+
+.link{
+	margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px 20px 20px 0px;
+}
